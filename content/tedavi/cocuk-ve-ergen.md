@@ -1,41 +1,117 @@
 ---
-title: "ÇOCUK VE ERGEN"
+title: "Çocuk ve Ergen Psikiyatrisi"
+seoTitle: "Çocuk ve Ergen Psikiyatrisi | Dr. Ayhan Akcan"
+description: "Çocuk ve ergen psikolojisi, DEHB, okul fobisi, ergenlik sorunları için uzman psikiyatri desteği. Dr. Ayhan Akcan ile sağlıklı bir gelişim süreci."
+keywords: ["çocuk psikiyatrisi", "ergen psikolojisi", "DEHB tedavisi", "okul fobisi", "ergenlik sorunları", "çocuk psikoterapi", "dikkat eksikliği", "çocuk kaygı tedavisi"]
 ---
 
-Çocukluk, bebeklikten ergenliğe kadar uzanan dönemi içine alan, fiziksel, zihinsel, duygusal ve sosyal düzeyde gerçekleşen değişiklikleri kapsayan bütüncül bir gelişim sürecidir. İçinde bulundukları yaş aralığına bağlı olarak çocuklar, gelişimleri süresince fiziksel ve psikolojik düzeyde pek çok değişikliğe uyum sağlamaları gerekmektedir. Her çocuğun gelişim dönemlerindeki davranışları ve tutumları kendine özgü olmakla birlikte, bütün çocukların içinden geçtikleri gelişim evreleri birbiriyle benzerlik gösterir.
+Çocuğunuzun davranışlarını anlamak, bazen ebeveyn olarak en zorlu görevlerden biri gibi hissedebilir. Ancak iyi haber şu: doğru destek ve rehberlikle çocuklar ve ergenler, gelişim süreçlerinin her evresini sağlıklı biçimde tamamlayabilir. Bu sayfada çocukluk ve ergenlik döneminde görülen psikolojik sorunları, ne zaman uzman desteği almanız gerektiğini ve terapi sürecinin nasıl işlediğini bulabilirsiniz.
 
-Çocukların ihtiyaçları ve sorunları içinde bulundukları yaş aralığına göre değişmektedir. Okul öncesi dönemde bulunan bir çocukla, okul çağında olan bir çocuğun ihtiyaçları ve yaşayabilecekleri sorunlar birbirinden farklıdır. Çocuklukta karşılaşılan pek çok sorun anne-babaların bilinçli tutumları ve yaklaşımları sayesinde çocukluk döneminde ortaya çıkabilecek sorunlar çözülebilmektedir. Anne-babaların kendilerini yetersiz hissettikleri durumlarda çocuklarının psikolojik ve sosyal gelişimine yönelik profesyonel destek almaları ise doğaldır. Çocuklarda görülen fiziksel sorunlarla ilgili doktora başvurulması gibi, çocukların psikolojik sorunları içinde uzmanlardan destek alınması da, çocukların sağlıklı gelişimleri açısından gerekli bir adımdır.
+## Çocukluk Dönemi Psikolojisi
 
-Çocukların gelişimleri sırasında yaşayabilecekleri psikolojik sorunlar, konuyla ilgili uzmanlardan alınacak profesyonel destek sayesinde daha kolay aşılabilmektedir. Tıpkı yetişkinlerde olduğu gibi, çocuklarda görülebilecek duygusal ve davranışsal sorunlara yönelik psikoterapi yaklaşımları da bulunmaktadır. Bakırköy Psikiyatri Tedavi ve Araştırma Merkezinde, uzmanlarımız tarafından çocukluk döneminde karşılaşılan sorunlara yönelik psikoterapi ve danışmanlık desteği verilmektedir.
+Çocukluk, bebeklikten ergenliğe kadar uzanan; fiziksel, zihinsel, duygusal ve sosyal düzeyde köklü değişikliklerin yaşandığı bütüncül bir gelişim sürecidir. Her çocuğun gelişim hızı ve biçimi kendine özgü olmakla birlikte, tüm çocukların geçtiği belirli gelişim evreleri mevcuttur.
 
-Merkezimizde çocuklukta görülebilen aşağıdaki sorunlara yönelik psikoterapi hizmeti verilmektedir:
+### Gelişim Evrelerine Göre Değişen İhtiyaçlar
 
-- Hiperaktivite / Dikkat Eksikliği
-- Tırnak yeme
+Okul öncesi dönem (0–6 yaş) ile okul çağı (7–12 yaş) arasındaki ihtiyaçlar ve karşılaşılan güçlükler birbirinden önemli ölçüde farklılaşır. Küçük yaşlardaki bir çocukta geceleyin görülen korkular, okul çağında sınav kaygısına ya da arkadaş ilişkilerinde yaşanan çatışmalara dönüşebilir. Bu nedenle her dönemin kendine özgü gereksinimleri, ebeveynler tarafından tanınmalı ve anlaşılmalıdır.
+
+Anne-babaların bilinçli tutumu ve yaklaşımı, çocuklukta ortaya çıkan sorunların büyük çoğunluğunun çözülmesinde belirleyici rol oynar. Ancak bazı durumlarda, tıpkı fiziksel bir sağlık sorununda doktora başvurulması gibi, psikolojik sorunlar için de profesyonel destek almak hem doğal hem de gereklidir.
+
+## Çocuklarda Sık Görülen Psikolojik Sorunlar
+
+Çocukluk döneminde pek çok farklı duygusal ve davranışsal sorun görülebilir. Aşağıdaki güçlükler, uzman desteğiyle etkin biçimde ele alınabilen başlıca sorunlardır:
+
+### Davranışsal Sorunlar
+- **Dikkat Eksikliği ve Hiperaktivite (DEHB):** Derse odaklanmada güçlük, aşırı hareketlilik ve dürtüsellik belirtilerini kapsar.
+- **Öfke ve saldırganlık:** Uygunsuz öfke patlamaları ya da akranlarına yönelik saldırgan davranışlar.
+- **Tırnak yeme, tik bozuklukları:** Kaygıya bağlı gelişen alışkanlıklar ve istem dışı hareketler.
+
+### Duygusal Sorunlar
+- **Depresyon ve kaygı (anksiyete):** Süregelen mutsuzluk, aşırı endişe ya da gerginlik hali.
+- **Özgül fobiler ve gece korkuları:** Belirli nesne veya durumlara yönelik orantısız korku tepkileri.
+- **Uyku sorunları:** Uykuya dalmada güçlük, gece uyanmaları, kabus görme.
+
+### Okul ve Sosyal Uyum Sorunları
+- **Okul fobisi ve okuldan kaçınma:** Okula gitmekten belirgin biçimde kaçınma davranışı.
+- **Sınav kaygısı ve akademik başarısızlık:** Yoğun performans kaygısı, öğrenme güçlükleri.
+- **Arkadaş ilişkilerinde uyum sorunları:** Akranlarla sağlıklı ilişki kurmada yaşanan güçlükler.
+- **Kardeş kıskançlığı:** Yeni kardeşin gelmesiyle ortaya çıkan duygusal dengesizlikler.
+
+### Gelişimsel Sorunlar
 - Alt ıslatma (Enürezis)
-- Özgül fobiler, gece korkuları
-- Okul fobisi, okuldan kaçınma
-- Depresyon ve kaygı (anksiyete)
-- Sınav kaygısı
-- Okul ve derslerde başarısızlık
-- Öğrenme güçlükleri
 - Kekemelik
-- Tikler
-- Kardeş kıskançlığı
-- Arkadaşlarla yaşanan sorunlar ve uyum sorunları
-- Öfke ve saldırganlık
-- Uyku sorunları
+- Öğrenme güçlükleri
 
-### ERGENLİK VE ERGENLİKTE GÖRÜLEN PSİKOLOJİK SORUNLAR
+## Ergenlik Dönemi ve Psikolojik Sorunlar
 
-Ergenlik (adolesans), insan yaşamında çocukluğun bitimiyle birlikte başlayan ve yetişkinliğe kadar devam eden bir olağan bir gelişim evresidir. Ergenlik kızlarda yaklaşık 10, erkeklerde 12 yaşlardaki erinlik (buluğ) dönemi ile başlar ve yirmili yaşların başına kadar devam eder.
+Ergenlik (adolesans), çocukluğun bitiminden yetişkinliğe uzanan olağan bir gelişim evresidir. Kızlarda yaklaşık 10, erkeklerde 12 yaş civarında başlayan bu dönem, yirmili yaşların başına kadar sürer.
 
-Ergenlik, fiziksel, fizyolojik, psikolojik ve sosyal yönlerden hızlı ve önemli değişikliklerin yaşandığı bir gelişim dönemidir. Vücudun belli bölgelerinde kıllanma olması, erkeklerde ses kalınlaşması, cinsiyet özelliklerinin ortaya çıkması, kızlarda ilk adet görme, hızlı boy artışları, ter bezlerinin yoğun çalışması ergenlik dönemine özgü bazı fizyolojik değişikliklerdir. Bu dönemde ergen, hızlı bir şekilde gerçekleşen fizyolojik değişikliklere uyum sağlamaya çalışır. Ergenliğe adım atan genç birey öte yandan, psikolojik düzeyde de kendisini keşfetmeye, sosyal roller üstlenmeye, karşı cinsle uyumlu ilişkiler kurmaya, arkadaş grubunda kendini ifade etmeye ve bir kimlik oluşturmaya çalışmaktadır.
+### Ergenlikte Yaşanan Dönüşümler
 
-Ergenlik dönemindeki birey, kozası içerisinde bir kelebek olmaya hazırlanan tırtıl kadar narin ve kırılgan bir yapıya sahiptir. Ergenin çevresiyle yaşayabileceği olası çatışmalar, onun hızlı fizyolojik ve psikolojik değişimlere sahne olan bu geçiş dönemine uyum sağlamaya çalışmasından kaynaklanır. Anne-babalar ergenliğin, çocuklukla yetişkinlik arasında köprü kuran olağan bir gelişim evresi olduğunu akılda tutmalıdır.
+Bu dönemde ergen; hızlı fizyolojik değişikliklerin yanı sıra kimlik oluşturma, sosyal rol üstlenme ve bağımsızlaşma süreçlerini de bir arada yönetmeye çalışır. "Stres ve fırtına dönemi" olarak da nitelendirilen ergenlikte bazı uyum sorunları yaşanması, gelişimin doğal bir parçasıdır.
 
-Bir yandan bedenlerinde gerçekleşen hızlı değişikliklere uyum sağlamaya çalışırken, diğer yandan da kimlik oluşturma ve bireysel sınırlarını çizme çabasında olan ergenlerin bazı uyum sorunları yaşaması doğaldır. "Stres ve fırtına" dönemi olarak da adlandırılan ergenlikte, aile ve çevresinin ergene karşı tutumları da önemlidir. Aile ve diğer yakın çevrenin yaklaşımı, ergenliğin genç birey açısından yıkıcı bir kriz ve bunalım dönemine dönüşmeden geçirilmesini sağlayabilir.
+Aile ve yakın çevrenin ergene gösterdiği anlayış ve destek, bu dönemin yıkıcı bir krize dönüşmesini büyük ölçüde engeller. Ergenler, yalnızca anlaşılmak istediklerini hissettiklerinde kendilerini daha güvende bulurlar.
 
-Bazı durumlarda, bireysel yatkınlıklar ve çevresel koşullarının etkileşimi sonucunda ergenin psikolojik sağlığı açısından önemli sayılabilecek duygusal ve davranışsal sorunlar ortaya çıkabilir. Böyle durumlarda ergenlerde aşırı kaygı, endişe, depresyon, içe kapanma, sosyal kaygı, yeme sorunları, saldırganlık, madde kullanımı, gençlik suçları gibi sorunların ortaya çıktığı görülebilir. Bu gibi durumlarda anne-babaların psikiyatrist veya psikolog gibi profesyonel kişilerden destek alması, ergenin psikolojik sağlığı ve mutluluğu açısından önem taşımaktadır.
+### Ergenlerde Görülen Başlıca Sorunlar
 
-Bakırköy Psikiyatri Tedavi ve Araştırma Merkezi'nde, ergenlik dönemine özgü sorunlara yönelik olarak psikoterapi ve danışmanlık hizmeti sunulmaktadır. Ergen çocuğunuzun yaşadığı sorunlarla ilgili olarak uzman doktor ve psikologlarımızdan destek almak için [iletişime geçebilirsiniz](/iletisim/).
+Bireysel yatkınlıklar ve çevresel koşulların etkileşimiyle ergenlik döneminde şu sorunlar ortaya çıkabilir:
+
+- Aşırı kaygı, sosyal kaygı ve panik ataklar
+- Depresyon, içe kapanma, motivasyon kaybı
+- Yeme bozuklukları (anoreksiya, bulimiya)
+- Madde kullanımı ve bağımlılık eğilimleri
+- İnternet ve sosyal medya bağımlılığı
+- Kimlik karmaşası ve özgüven sorunları
+- Akran zorbalığı (bully) ve sosyal dışlanma
+
+İnternet bağımlılığı konusunda daha fazla bilgi edinmek için [internet bağımlılığı tedavisi sayfamızı](/tedavi/internet-bagimliligi/) inceleyebilirsiniz. Ergen grubunuzun akranlarıyla birlikte çalışmasının fayda sağlayabileceği düşünülüyorsa, [ergen grup terapisi](/tedavi/ergen-grup-terapi/) hizmetimizi de değerlendirebilirsiniz.
+
+## Ne Zaman Uzman Desteği Alınmalı?
+
+Ebeveynler olarak çocuğunuzda aşağıdaki işaretleri fark ettiğinizde profesyonel destek almanın tam zamanı gelmiş olabilir:
+
+- Duygusal ya da davranışsal sorunlar **2 haftadan uzun** sürüyorsa
+- Günlük yaşamı, okul başarısını ya da arkadaşlıklarını **belirgin biçimde** olumsuz etkiliyorsa
+- Çocuk veya ergen kendine zarar verme eğilimi gösteriyorsa
+- Aile içi konuşmalar ya da kendi çabalarınız sorunu çözmede yetersiz kalıyorsa
+- Çocuk giderek içine kapanıyor, okula gitmek istemiyor ya da uyku ve yeme düzeni bozuluyorsa
+
+Profesyonel yardım istemek, bir ebeveyn olarak yetersizliğinizin değil; aksine çocuğunuza olan bağlılığınızın göstergesidir.
+
+## Terapi Süreci Nasıl İlerler?
+
+### İlk Değerlendirme Görüşmesi
+
+Süreç, çocuk ya da ergenin ve ailenin bir arada ya da ayrı ayrı katıldığı kapsamlı bir değerlendirme seansıyla başlar. Bu görüşmede yaşanan güçlükler, gelişim geçmişi ve aile dinamikleri ele alınır.
+
+### Bireysel Psikoterapi
+
+Çocukla birebir gerçekleştirilen seanslarda, yaşa uygun oyun terapisi, bilişsel-davranışçı yöntemler ya da yaratıcı ifade teknikleri kullanılır. Çocuk, güvenli ve yargılanmadan dinlendiği bir ortamda duygularını keşfeder.
+
+### Aile Danışmanlığı
+
+Ebeveynlerin çocuklarıyla iletişim kurma biçimlerini güçlendirmek ve ev ortamını destekleyici hale getirmek için düzenli aile görüşmeleri yapılır.
+
+### Okul ile İşbirliği
+
+Gerektiğinde öğretmenler ve okul rehber öğretmenleriyle koordinasyon sağlanarak çocuğun okul ortamındaki uyumu da desteklenir.
+
+## Sıkça Sorulan Sorular
+
+### Çocuğum terapiye gitmek istemiyorsa ne yapmalıyım?
+
+Bu oldukça yaygın bir endişedir. Uzman, çocuğun yaşına ve ilgi alanlarına uygun yaklaşımlarla güven ortamı oluşturur. İlk seanslarda zorlayıcı sorular yerine, çocuğun kendini rahat hissetmesi ön planda tutulur. Çoğu çocuk birkaç seans sonrasında terapiye isteyerek gelmeye başlar.
+
+### Terapi ne kadar sürer?
+
+Süre, çocuğun yaşadığı güçlüğün türüne ve derinliğine göre değişir. Bazı sorunlar birkaç seansta önemli ölçüde iyileşirken, daha köklü sorunlar için 3–6 aylık ya da daha uzun bir çalışma süreci gerekebilir. İlerleme, düzenli aralıklarla değerlendirilir ve aileyle paylaşılır.
+
+### Ebeveyn olarak ben de seansa katılabilir miyim?
+
+Evet, özellikle küçük yaştaki çocuklarla çalışırken ebeveyn katılımı süreci hızlandırır ve kalıcılaştırır. Hangi seansların aile katılımlı olacağı, terapistle birlikte planlanır.
+
+---
+
+Çocuğunuzun ya da ergeninizin psikolojik sağlığı konusunda sorularınız varsa veya profesyonel destek almak istiyorsanız, bizimle iletişime geçebilirsiniz. Erken adım atmak, her zaman en güçlü adımdır.
+
+[İletişime Geçin →](/iletisim/)

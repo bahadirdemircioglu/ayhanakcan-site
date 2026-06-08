@@ -1,0 +1,30 @@
+{{- $paginator := .Paginate .Pages 9 }}
+<div class="row post-grid">
+  {{- range $paginator.Pages }}
+  {{- $href := .RelPermalink }}
+  {{- $title := .Title }}
+  {{- $desc := "" }}
+  {{- if .Params.description }}
+    {{- $desc = .Params.description }}
+  {{- else if .Summary }}
+    {{- $desc = .Summary | plainify | truncate 120 }}
+  {{- end }}
+  <div class="col-xs-12 col-md-4">
+    <div class="latest-post">
+      <a class="latest-post__thumbnail" href="{{ $href }}">
+        {{- if .Params.thumbnail }}
+        <img width="320" height="180" src="{{ .Params.thumbnail }}" alt="{{ $title }}">
+        {{- else }}
+        <div class="latest-post__placeholder"><i class="fa fa-newspaper-o"></i></div>
+        {{- end }}
+      </a>
+      <h4 class="latest-post__title"><a href="{{ $href }}">{{ $title }}</a></h4>
+      {{- if $desc }}
+      <p class="latest-post__excerpt">{{ $desc }}</p>
+      {{- end }}
+      <a class="read-more" href="{{ $href }}">Devamını oku</a>
+    </div>
+  </div>
+  {{- end }}
+</div>
+{{- template "_internal/pagination.html" . }}

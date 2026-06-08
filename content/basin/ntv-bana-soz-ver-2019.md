@@ -2,6 +2,7 @@
 title: "11 Şubat 2019 NTV Bana Söz Ver Programı"
 date: 2019-02-17
 ---
+thumbnail: "https://img.youtube.com/vi/_yENha3zz-Y/mqdefault.jpg"
 
 {{< youtube _yENha3zz-Y >}}
 

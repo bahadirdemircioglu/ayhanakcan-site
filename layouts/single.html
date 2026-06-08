@@ -1,10 +1,10 @@
 {{ define "main" }}
 <div class="main-title">
-  <h2 class="main-title__primary">{{ .Title }}</h2>
+  <h1 class="main-title__primary">{{ .Title }}</h1>
 </div>
-<article class="post-inner clearfix hentry">
+<article class="hentry">
   {{- with .Params.thumbnail }}
-  <img class="img-responsive" src="{{ . }}" alt="{{ $.Title }}" style="max-width:100%;height:auto;margin-bottom:20px;">
+  <img class="hentry__thumbnail" src="{{ . }}" alt="{{ $.Title }}">
   {{- end }}
   {{- if .Date }}
   <div class="meta-data">

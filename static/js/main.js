@@ -1,4 +1,14 @@
 (function () {
+  // Sub-menu click toggle
+  var parentItems = document.querySelectorAll('.main-navigation .menu-item-has-children > a');
+  parentItems.forEach(function (link) {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      var li = this.parentElement;
+      li.classList.toggle('open');
+    });
+  });
+
   // Mobile navbar toggle
   var toggle = document.querySelector('.js-navbar-toggle');
   var nav = document.querySelector('.main-navigation__container');
@@ -18,7 +28,7 @@
   }
 
   // Awards carousel
-  var items = document.querySelectorAll('.award-item');
+  var items = document.querySelectorAll('.carousel-inner > .item');
   if (items.length) {
     var current = 0;
     items[0].classList.add('active');
@@ -29,12 +39,11 @@
       items[current].classList.add('active');
     }
 
-    var prev = document.querySelector('.carousel-prev');
-    var next = document.querySelector('.carousel-next');
+    var prev = document.querySelector('.testimonial__carousel--left');
+    var next = document.querySelector('.testimonial__carousel--right');
     if (prev) prev.addEventListener('click', function () { showItem(current - 1); });
     if (next) next.addEventListener('click', function () { showItem(current + 1); });
 
-    // Auto-rotate every 5 seconds
     setInterval(function () { showItem(current + 1); }, 5000);
   }
 })();

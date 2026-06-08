@@ -5,8 +5,11 @@ theme = "mentalpress-hugo"
 
 [params]
   topTagline = "Ayhan Akcan"
-  address = "İncirli Cad. Çağ Sok<br>No 22/5 Bakırköy/İstanbul"
-  hours = "Pazartesi – Pazar<br>8.00 – 18.00 Pazar Kapalı"
+  logoImage = ""
+  addressTitle = "İncirli Cad. Çağ Sok No 22/5"
+  addressSubtitle = "Bakırköy / İstanbul"
+  hoursTitle = "Pazartesi – Pazar 8.00 – 18.00"
+  hoursSubtitle = "Pazar Kapalı"
   phone = "0212 660 84 80"
   phoneLink = "tel:02126608480"
   youtube = "https://www.youtube.com/channel/UCdSeUceIVrBVR6EO_XjHiPw"
