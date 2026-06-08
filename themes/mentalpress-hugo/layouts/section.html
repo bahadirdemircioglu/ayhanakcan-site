@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="main-title">
+  <h1 class="main-title__primary">{{ .Title }}</h1>
+</div>
+<div>
+  <article class="hentry">
+    {{ .Content }}
+    {{ if .Pages }}
+    <div class="section-posts">
+      {{ range .Pages }}
+      <div class="section-post-item">
+        {{- with .Params.thumbnail }}
+        <a class="section-post__thumbnail" href="{{ $.RelPermalink }}">
+          <img src="{{ . }}" alt="{{ $.Title }}">
+        </a>
+        {{- end }}
+        <h3 class="section-post__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="section-post__excerpt">{{ .Summary }}</p>
+        <a class="read-more" href="{{ .RelPermalink }}">Devamını oku</a>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </article>
+</div>
+{{ end }}

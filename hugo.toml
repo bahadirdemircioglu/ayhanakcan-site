@@ -1,0 +1,211 @@
+baseURL = "https://ayhanakcan.com/"
+locale = "tr-TR"
+title = "Ayhan Akcan"
+theme = "mentalpress-hugo"
+
+[params]
+  topTagline = "Ayhan Akcan"
+  address = "İncirli Cad. Çağ Sok<br>No 22/5 Bakırköy/İstanbul"
+  hours = "Pazartesi – Pazar<br>8.00 – 18.00 Pazar Kapalı"
+  phone = "0212 660 84 80"
+  phoneLink = "tel:02126608480"
+  youtube = "https://www.youtube.com/channel/UCdSeUceIVrBVR6EO_XjHiPw"
+  instagram = "https://www.instagram.com/psikiyatrayhanakcan/?hl=tr"
+  facebook = "https://www.facebook.com/ayhanakcan.dr"
+  formspreeEndpoint = ""
+
+[[menu.main]]
+  identifier = "kimdir"
+  name = "Kimdir?"
+  url = "/kimdir/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "televizyon"
+  name = "Televizyon"
+  url = "/televizyon/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "basin"
+  name = "Basın"
+  url = "/basin/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "tedaviler"
+  name = "Tedaviler"
+  url = "/tedaviler/"
+  weight = 4
+
+[[menu.main]]
+  identifier = "evlilik-terapisi"
+  name = "EVLİLİK TERAPİSİ"
+  url = "/tedavi/evlilik-terapisi/"
+  weight = 1
+  parent = "tedaviler"
+
+[[menu.main]]
+  identifier = "yaslida-unutkanlik"
+  name = "YAŞLIDA UNUTKANLIK"
+  url = "/tedavi/yaslida-unutkanlik/"
+  weight = 2
+  parent = "tedaviler"
+
+[[menu.main]]
+  identifier = "vajinismus"
+  name = "VAJİNİSMUS"
+  url = "/tedavi/vajinismus/"
+  weight = 3
+  parent = "tedaviler"
+
+[[menu.main]]
+  identifier = "yalnizlik-ve-caresizlik"
+  name = "YALNIZLIK VE ÇARESİZLİK"
+  url = "/tedavi/yalnizlik-ve-caresizlik/"
+  weight = 4
+  parent = "tedaviler"
+
+[[menu.main]]
+  identifier = "obsesyon"
+  name = "OBSESYON"
+  url = "/tedavi/obsesyon/"
+  weight = 5
+  parent = "tedaviler"
+
+[[menu.main]]
+  identifier = "mitomani"
+  name = "MİTOMANİ"
+  url = "/tedavi/mitomani/"
+  weight = 6
+  parent = "tedaviler"
+
+[[menu.main]]
+  identifier = "kleptomani"
+  name = "KLEPTOMANİ"
+  url = "/tedavi/kleptomani/"
+  weight = 7
+  parent = "tedaviler"
+
+[[menu.main]]
+  identifier = "internet-bagimliligi"
+  name = "İNTERNET BAĞIMLILIĞI"
+  url = "/tedavi/internet-bagimliligi/"
+  weight = 8
+  parent = "tedaviler"
+
+[[menu.main]]
+  identifier = "ergen-grup-terapi"
+  name = "ERGEN GRUP TERAPİ"
+  url = "/tedavi/ergen-grup-terapi/"
+  weight = 9
+  parent = "tedaviler"
+
+[[menu.main]]
+  identifier = "cocuk-ve-ergen"
+  name = "ÇOCUK VE ERGEN"
+  url = "/tedavi/cocuk-ve-ergen/"
+  weight = 10
+  parent = "tedaviler"
+
+[[menu.main]]
+  identifier = "takinti"
+  name = "Takıntı"
+  url = "/tedavi/takinti/"
+  weight = 11
+  parent = "tedaviler"
+
+[[menu.main]]
+  identifier = "panik-atak"
+  name = "Panik Atak"
+  url = "/tedavi/panik-atak/"
+  weight = 12
+  parent = "tedaviler"
+
+[[menu.main]]
+  identifier = "ilacsiz-terapi-tedavi"
+  name = "İlaçsız Terapi"
+  url = "/tedavi/ilacsiz-terapi/"
+  weight = 13
+  parent = "tedaviler"
+
+[[menu.main]]
+  identifier = "korkular-ve-agarofobi"
+  name = "KORKULAR VE AGAROFOBİ"
+  url = "/tedavi/korkular-ve-agarofobi/"
+  weight = 14
+  parent = "tedaviler"
+
+[[menu.main]]
+  identifier = "cinsellik-terapisi"
+  name = "Cinsellik Terapisi"
+  url = "/tedavi/cinsellik-terapisi/"
+  weight = 15
+  parent = "tedaviler"
+
+[[menu.main]]
+  identifier = "yazilar"
+  name = "Yazılar"
+  url = "/yazilar/"
+  weight = 5
+
+[[menu.main]]
+  identifier = "sss"
+  name = "Sıkça Sorulan Sorular"
+  url = "/sikca-sorulan-sorular/"
+  weight = 6
+
+[[menu.main]]
+  identifier = "ilacsiz-terapi-soru"
+  name = "İlaçsız terapi mümkün müdür?"
+  url = "/sorular/ilacsiz-terapi-mumkun-mudur/"
+  weight = 1
+  parent = "sss"
+
+[[menu.main]]
+  identifier = "sosyal-fobi"
+  name = "Sosyal fobi hastalık mıdır?"
+  url = "/sorular/sosyal-fobi-hastalik-midir/"
+  weight = 2
+  parent = "sss"
+
+[[menu.main]]
+  identifier = "takintilar"
+  name = "Takıntılar geçer mi? Tedavisi mümkün müdür?"
+  url = "/sorular/takintilar-gecer-mi-tedavisi-mumkun-mudur/"
+  weight = 3
+  parent = "sss"
+
+[[menu.main]]
+  identifier = "bilgisayar"
+  name = "Oğlumu bilgisayar başından kaldıramıyoruz."
+  url = "/sorular/oglumu-bilgisayar-basindan-kaldiramiyoruz/"
+  weight = 4
+  parent = "sss"
+
+[[menu.main]]
+  identifier = "depresyon-nedir"
+  name = "Depresyon nedir?"
+  url = "/sorular/depresyon-nedir/"
+  weight = 5
+  parent = "sss"
+
+[[menu.main]]
+  identifier = "bosanma"
+  name = "Boşanma Çocuğa Nasıl Anlatılmalıdır?"
+  url = "/sorular/bosanma-cocuga-nasil-anlatilmalidir/"
+  weight = 6
+  parent = "sss"
+
+[[menu.main]]
+  identifier = "iletisim"
+  name = "İletişim"
+  url = "/iletisim/"
+  weight = 7
+
+[[menu.main]]
+  identifier = "sosyal-medya"
+  name = "Sosyal Medya"
+  url = "/sosyal-medya/"
+  weight = 1
+  parent = "iletisim"

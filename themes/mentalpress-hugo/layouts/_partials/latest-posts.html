@@ -1,0 +1,26 @@
+{{- $posts := where site.RegularPages "Section" "in" (slice "basin" "televizyon" "yazilar") }}
+{{- $posts = $posts | first 3 }}
+{{- if $posts }}
+<div class="latest-posts">
+  <div class="row">
+    {{- range $posts }}
+    <div class="col-xs-12 col-md-4">
+      <div class="latest-post">
+        {{- with .Params.thumbnail }}
+        <a class="latest-post__thumbnail" href="{{ $.RelPermalink }}">
+          <img width="270" height="190" src="{{ . }}" alt="{{ $.Title }}">
+        </a>
+        {{- end }}
+        <div class="latest-post__categories">
+          <ul class="post-categories">
+            <li><a href="/{{ .Section }}/">{{ .Section }}</a></li>
+          </ul>
+        </div>
+        <h4 class="latest-post__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+        <p class="latest-post__excerpt">{{ .Summary }}</p>
+      </div>
+    </div>
+    {{- end }}
+  </div>
+</div>
+{{- end }}

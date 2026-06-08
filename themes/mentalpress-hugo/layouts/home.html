@@ -1,0 +1,77 @@
+{{ define "bodyClass" }} home{{ end }}
+
+{{ define "main" }}
+<div>
+  <article class="hentry">
+
+    {{/* Hero Image */}}
+    {{- with .Params.heroImage }}
+    <div class="hero-image">
+      <img src="{{ . }}" alt="Ayhan Akcan" style="max-width:100%;height:auto;">
+    </div>
+    {{- end }}
+
+    {{/* Intro + Featured Pages */}}
+    <div class="row" style="margin-bottom:37px">
+      <div class="col-xs-12 col-md-6">
+        <div class="intro-text">
+          {{ .Content }}
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        {{- range .Params.featuredPages }}
+        <div class="page-box page-box--inline">
+          <a class="page-box__picture" href="{{ .url }}">
+            <img width="100" height="70" src="{{ .image }}" alt="{{ .title }}">
+          </a>
+          <div class="page-box__content">
+            <h5 class="page-box__title text-uppercase"><a href="{{ .url }}">{{ .title }}</a></h5>
+            <p>{{ .excerpt }}</p>
+          </div>
+        </div>
+        {{- end }}
+      </div>
+    </div>
+
+    {{/* Awards Carousel */}}
+    {{- with .Params.awards }}
+    <div class="awards-section" style="background-color:#f2f4f7;padding:30px 0;margin-bottom:55px">
+      <div class="testimonial">
+        <h2 class="widget-title">Ödüller ve Onurlandırma</h2>
+        <div class="awards-carousel" id="awards-carousel">
+          {{- range . }}
+          <div class="award-item">
+            <blockquote>
+              <p class="testimonial__quote">{{ .quote }}</p>
+              <cite class="testimonial__author">{{ .author }}</cite>
+            </blockquote>
+          </div>
+          {{- end }}
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-prev" aria-label="Önceki"><i class="fa fa-chevron-left"></i></button>
+          <button class="carousel-next" aria-label="Sonraki"><i class="fa fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+    {{- end }}
+
+    {{/* FAQ Previews */}}
+    {{- with .Params.faqPreviews }}
+    <div style="margin-bottom:15px;text-align:center">
+      <h3 class="widget-title">Sıkça Sorulan Sorular</h3>
+    </div>
+    <div class="row" style="margin-bottom:30px">
+      {{- range . }}
+      <div class="col-xs-12 col-md-4">
+        <p><strong>{{ .title }}</strong></p>
+        <p>{{ .excerpt }}</p>
+        <a class="read-more" href="{{ .url }}">Devamını oku</a>
+      </div>
+      {{- end }}
+    </div>
+    {{- end }}
+
+  </article>
+</div>
+{{ end }}

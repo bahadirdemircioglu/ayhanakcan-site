@@ -1,0 +1,52 @@
+<div class="logo">
+  <a href="{{ site.BaseURL }}">
+    <h1></h1>
+  </a>
+</div>
+
+<a href="#main-navigation" class="navbar-toggle js-navbar-toggle">
+  <span class="navbar-toggle__text">MENU</span>
+  <span class="navbar-toggle__icon-bar">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </span>
+</a>
+
+<div class="header-widgets">
+  <div class="widget header-widgets__widget widget-banner">
+    <a class="banner" href="{{ site.BaseURL }}">
+      <div class="banner__title">Psikiyatrist Ayhan Akcan</div>
+    </a>
+  </div>
+
+  <div class="widget header-widgets__widget widget_text">
+    <div class="textwidget">{{ site.Params.address | safeHTML }}</div>
+  </div>
+
+  <div class="widget header-widgets__widget widget_text">
+    <div class="textwidget">{{ site.Params.hours | safeHTML }}</div>
+  </div>
+
+  <div class="widget header-widgets__widget widget-social-icons">
+    {{- with site.Params.youtube }}
+    <a class="social-icons__link" href="{{ . }}" target="_blank" rel="noopener"><i class="fa fa-youtube"></i></a>
+    {{- end }}
+    {{- with site.Params.instagram }}
+    <a class="social-icons__link" href="{{ . }}" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
+    {{- end }}
+    {{- with site.Params.facebook }}
+    <a class="social-icons__link" href="{{ . }}" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
+    {{- end }}
+  </div>
+
+  <div class="widget header-widgets__widget widget-icon-box">
+    <a class="icon-box" href="{{ site.Params.phoneLink }}">
+      <i class="fa fa-phone fa-3x"></i>
+      <div class="icon-box__text">
+        <h4 class="icon-box__title"></h4>
+        <span class="icon-box__subtitle">{{ site.Params.phone }}</span>
+      </div>
+    </a>
+  </div>
+</div>
