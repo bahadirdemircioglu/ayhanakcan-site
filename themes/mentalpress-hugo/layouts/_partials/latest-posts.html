@@ -4,11 +4,13 @@
 <div class="latest-posts">
   <div class="row">
     {{- range $posts }}
+    {{- $href := .RelPermalink }}
+    {{- $title := .Title }}
     <div class="col-xs-12 col-md-4">
       <div class="latest-post">
         {{- with .Params.thumbnail }}
-        <a class="latest-post__thumbnail" href="{{ $.RelPermalink }}">
-          <img width="270" height="190" src="{{ . }}" alt="{{ $.Title }}">
+        <a class="latest-post__thumbnail" href="{{ $href }}">
+          <img width="270" height="190" src="{{ . }}" alt="{{ $title }}">
         </a>
         {{- end }}
         <div class="latest-post__categories">
@@ -17,7 +19,7 @@
           </ul>
         </div>
         <h4 class="latest-post__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-        <p class="latest-post__excerpt">{{ .Summary }}</p>
+        <p class="latest-post__excerpt">{{ .Summary | plainify | truncate 120 }}</p>
       </div>
     </div>
     {{- end }}

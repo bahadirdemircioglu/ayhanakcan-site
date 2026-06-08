@@ -5,24 +5,15 @@
 <div>
   <article class="hentry">
     {{ .Content }}
-    {{ if .Pages }}
     <div class="section-posts">
-      {{ range .Pages }}
-    {{- $href := .RelPermalink }}
-    {{- $title := .Title }}
+      {{ range where site.RegularPages "Section" "tedavi" }}
       <div class="section-post-item">
-        {{- with .Params.thumbnail }}
-        <a class="section-post__thumbnail" href="{{ $href }}">
-          <img src="{{ . }}" alt="{{ $title }}">
-        </a>
-        {{- end }}
-        <h3 class="section-post__title"><a href="{{ $href }}">{{ $title }}</a></h3>
+        <h3 class="section-post__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
         <p class="section-post__excerpt">{{ .Summary | plainify | truncate 120 }}</p>
         <a class="read-more" href="{{ .RelPermalink }}">Devamını oku</a>
       </div>
       {{ end }}
     </div>
-    {{ end }}
   </article>
 </div>
 {{ end }}

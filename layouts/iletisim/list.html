@@ -1,0 +1,46 @@
+{{ define "main" }}
+<div class="main-title">
+  <h1 class="main-title__primary">{{ .Title }}</h1>
+</div>
+<div>
+  <article class="hentry">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <h3 class="widget-title">Adresimiz</h3>
+        <iframe style="border:0;width:100%;height:300px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3011.3536072566185!2d28.867544!3d40.995633!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabb51b8c66a2b%3A0xf6ac1422aebbf3c!2zWnVodXJhdGJhYmEgTWFoYWxsZXNpLCDDh2HEnyBTay4gTm86MjIsIDM0MTQ3IEJha8SxcmvDtnkvxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1541839056342" frameborder="0" allowfullscreen></iframe>
+        <p>&nbsp;</p>
+        <p><strong>İletişim Bilgilerimiz</strong></p>
+        <p><a href="{{ site.Params.phoneLink }}"><strong>Tel: {{ site.Params.phone }}</strong></a></p>
+        <p><a href="tel:02125438817"><strong>Tel: 0212 543 88 17</strong></a></p>
+        <p><a href="tel:05323615804"><strong>Tel: 0532 361 58 04</strong></a></p>
+        <p><strong>Mail: <a href="mailto:info@ayhanakcan.com">info@ayhanakcan.com</a></strong></p>
+        <p>&nbsp;</p>
+        <p><strong>Adres: {{ site.Params.address | safeHTML }}</strong></p>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        {{- with site.Params.formspreeEndpoint }}
+        <form action="{{ . }}" method="POST">
+          <p><label>Adınız (zorunlu)<br>
+            <input type="text" name="name" required style="width:100%;padding:8px;margin-top:4px;">
+          </label></p>
+          <p><label>Email (zorunlu)<br>
+            <input type="email" name="email" required style="width:100%;padding:8px;margin-top:4px;">
+          </label></p>
+          <p><label>Konu<br>
+            <input type="text" name="subject" style="width:100%;padding:8px;margin-top:4px;">
+          </label></p>
+          <p><label>Mesajınız<br>
+            <textarea name="message" rows="10" style="width:100%;padding:8px;margin-top:4px;"></textarea>
+          </label></p>
+          <p><input type="submit" value="Gönder" class="btn btn-primary"></p>
+        </form>
+        {{- else }}
+        <p><strong>Bize ulaşmak için lütfen arayınız veya e-posta gönderiniz.</strong></p>
+        <p><a href="{{ site.Params.phoneLink }}" class="btn btn-primary" style="margin-bottom:10px;">{{ site.Params.phone }}</a></p>
+        <p><a href="mailto:info@ayhanakcan.com" class="btn btn-success">info@ayhanakcan.com</a></p>
+        {{- end }}
+      </div>
+    </div>
+  </article>
+</div>
+{{ end }}

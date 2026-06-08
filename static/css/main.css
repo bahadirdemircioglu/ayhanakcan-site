@@ -331,6 +331,17 @@ blockquote {
 .hentry h4, .hentry h3, .hentry h2 { margin: 1.2em 0 0.5em; }
 .hentry img { max-width: 100%; height: auto; }
 
+/* Single post */
+.hentry__title { font-size: 20px; margin-bottom: 15px; }
+.hentry__content { margin-top: 10px; }
+.meta-data { color: #919699; font-size: 12px; margin-bottom: 12px; }
+.meta-data__date { margin-right: 10px; }
+.meta-data__categories a { background-color: var(--color-secondary); color: #fff; padding: 2px 6px; border-radius: 3px; font-size: 11px; margin-right: 4px; text-decoration: none; }
+
+/* YouTube responsive embed */
+.embed-responsive { position: relative; height: 0; overflow: hidden; padding-bottom: 56.25%; }
+.embed-responsive iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
 /* Read more link */
 a.read-more {
   display: inline-block;

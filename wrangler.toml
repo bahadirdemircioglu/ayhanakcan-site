@@ -1,0 +1,12 @@
+# Cloudflare Pages — ayhanakcan-site
+# Bu dosya sadece referans içindir.
+# Gerçek yapılandırma Cloudflare dashboard'dan yapılır.
+#
+# Build ayarları (Cloudflare Pages > Settings > Build):
+#   Build command:    hugo --minify
+#   Build directory:  public
+#   Root directory:   /
+#
+# Environment variables:
+#   HUGO_VERSION = 0.162.1
+#   HUGO_ENV     = production
