@@ -1,5 +1,6 @@
 ---
 title: "Denge Testi"
+description: "PsikoTürkiye bünyesinde yüksekte çalışan kişiler için psikoteknik denge testi değerlendirmesi. Dr. Ayhan Akcan önderliğinde uzman psikolog kadrosu ile hizmet."
 ---
 
 PsikoTürkiye bünyesinde yüksekte çalışan kişilerin değerlendirilmesinde iş güvenliği uzmanları ve hekimlerinin talebi üzerine Dr. Ayhan Akcan'ın önderliğinde kurulmuştur.

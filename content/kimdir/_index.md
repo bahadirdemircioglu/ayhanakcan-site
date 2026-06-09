@@ -1,5 +1,7 @@
 ---
 title: "Kimdir?"
+seoTitle: "Dr. Ayhan Akcan Kimdir? | Uzm. Psikiyatrist | Bakırköy"
+description: "Uzm. Psikiyatrist Dr. Ayhan Akcan'ın özgeçmişi, akademik çalışmaları, bilimsel yayınları ve ödülleri. Silah bağımlılığı terimini dünya literatürüne kazandıran psikiyatri uzmanı."
 ---
 
 Dr. Ayhan Akcan 1962 yılında doğmuştur. Denizli Cumhuriyet Lisesi'nden sonra Akdeniz Üniversitesi Tıp Fakültesi'nden mezun olmuştur. İhtisasını Bakırköy Ruh ve Sinir Hastalıkları Hastanesi'nde tamamlamıştır. Çalışma hayatına Adalet Bakanlığı'na bağlı Cezaevi Hekimliği (1990-1993) ile başlayan Ayhan Akcan sırasıyla; Bakırköy Ruh ve Sinir Hastalıkları Hastanesi'nde AMATEM, 35. Serviste "Kronik Şizofren Hastalar" ile ilgili çalışmalar, II.Nevroz biriminde özellikle "depresyon, anksiyete bozuklukları, yas, travma sonrası stres bozukluğu ve kişilik" üzerine çalışmalar (1993-1998) yapmıştır. 1998 yılından itibaren Bakırköy Dr. Sadi Konuk Eğitim Araştırma Hastanesi'nde, Psikiyatri Uzmanı olarak çalışmıştır.

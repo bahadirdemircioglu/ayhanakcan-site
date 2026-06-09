@@ -2,27 +2,38 @@
 <div class="main-title">
   <h1 class="main-title__primary">{{ .Title }}</h1>
 </div>
-<div>
-  <article class="hentry">
+<article class="hentry">
+  <div class="hentry__content">
     {{ .Content }}
-    {{ if .Pages }}
-    <div class="section-posts">
-      {{ range .Pages }}
+  </div>
+  {{ if .Pages }}
+  <div class="section-posts">
+    {{ range .Pages }}
     {{- $href := .RelPermalink }}
     {{- $title := .Title }}
-      <div class="section-post-item">
-        {{- with .Params.thumbnail }}
-        <a class="section-post__thumbnail" href="{{ $href }}">
-          <img src="{{ . }}" alt="{{ $title }}">
-        </a>
-        {{- end }}
-        <h3 class="section-post__title"><a href="{{ $href }}">{{ $title }}</a></h3>
-        <p class="section-post__excerpt">{{ .Summary | plainify | truncate 120 }}</p>
-        <a class="read-more" href="{{ .RelPermalink }}">Devamını oku</a>
-      </div>
-      {{ end }}
+    {{- $desc := "" }}
+    {{- if .Params.description }}
+      {{- $desc = .Params.description }}
+    {{- else }}
+      {{- $summary := .Summary | plainify | truncate 120 }}
+      {{- if gt (len (trim $summary " \n\r\t")) 0 }}
+        {{- $desc = $summary }}
+      {{- end }}
+    {{- end }}
+    <div class="section-post-item">
+      {{- with .Params.thumbnail }}
+      <a class="section-post__thumbnail" href="{{ $href }}">
+        <img src="{{ . }}" alt="{{ $title }}" loading="lazy">
+      </a>
+      {{- end }}
+      <h3 class="section-post__title"><a href="{{ $href }}">{{ $title }}</a></h3>
+      {{- if $desc }}
+      <p class="section-post__excerpt">{{ $desc }}</p>
+      {{- end }}
+      <a class="read-more" href="{{ .RelPermalink }}">Devamını oku</a>
     </div>
     {{ end }}
-  </article>
-</div>
+  </div>
+  {{ end }}
+</article>
 {{ end }}

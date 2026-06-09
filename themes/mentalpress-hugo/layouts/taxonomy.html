@@ -1,7 +1,19 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+<div class="main-title">
+  <h1 class="main-title__primary">{{ .Title }}</h1>
+</div>
+<article class="hentry">
   {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-  {{ end }}
+  <div class="section-posts">
+    {{ range .Pages }}
+    <div class="section-post-item">
+      <h3 class="section-post__title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+      {{- with .Summary }}
+      <p class="section-post__excerpt">{{ . | plainify | truncate 120 }}</p>
+      {{- end }}
+      <a class="read-more" href="{{ .RelPermalink }}">Devamını oku</a>
+    </div>
+    {{ end }}
+  </div>
+</article>
 {{ end }}

@@ -2,9 +2,17 @@
 <div class="main-title">
   <h1 class="main-title__primary">{{ .Title }}</h1>
 </div>
-<div>
-  <article class="hentry">
+<article class="hentry">
+  {{- with .Params.thumbnail }}
+  <img class="hentry__thumbnail" src="{{ . }}" alt="{{ $.Title }}" loading="lazy">
+  {{- end }}
+  {{- if .Date }}
+  <div class="meta-data">
+    <time class="meta-data__date">{{ .Date.Format "2 January 2006" }}</time>
+  </div>
+  {{- end }}
+  <div class="hentry__content">
     {{ .Content }}
-  </article>
-</div>
+  </div>
+</article>
 {{ end }}

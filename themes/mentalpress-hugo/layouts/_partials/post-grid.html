@@ -6,14 +6,17 @@
   {{- $desc := "" }}
   {{- if .Params.description }}
     {{- $desc = .Params.description }}
-  {{- else if .Summary }}
-    {{- $desc = .Summary | plainify | truncate 120 }}
+  {{- else }}
+    {{- $summary := .Summary | plainify | truncate 120 }}
+    {{- if gt (len (trim $summary " \n\r\t")) 0 }}
+      {{- $desc = $summary }}
+    {{- end }}
   {{- end }}
   <div class="col-xs-12 col-md-4">
     <div class="latest-post">
       <a class="latest-post__thumbnail" href="{{ $href }}">
         {{- if .Params.thumbnail }}
-        <img width="320" height="180" src="{{ .Params.thumbnail }}" alt="{{ $title }}">
+        <img width="320" height="180" src="{{ .Params.thumbnail }}" alt="{{ $title }}" loading="lazy">
         {{- else }}
         <div class="latest-post__placeholder"><i class="fa fa-newspaper-o"></i></div>
         {{- end }}

@@ -52,7 +52,7 @@
 
   <div class="widget header-widgets__widget widget_text">
     <div class="textwidget">
-      <a class="btn btn-danger btn-rounded" href="{{ site.Params.phoneLink }}">
+      <a class="btn btn-danger btn-rounded" href="{{ site.Params.phoneLink | safeURL }}">
         <i class="fa fa-phone"></i> {{ site.Params.phone }}
       </a>
     </div>

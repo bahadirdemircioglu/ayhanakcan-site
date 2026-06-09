@@ -1,8 +1,9 @@
 ---
 title: "11 Şubat 2019 NTV Bana Söz Ver Programı"
 date: 2019-02-17
----
 thumbnail: "https://img.youtube.com/vi/_yENha3zz-Y/mqdefault.jpg"
+description: "NTV Bana Söz Ver programında Psikiyatrist Dr. Ayhan Akcan. Siyaset, sanat, sağlık ve gündeme dair değerlendirmeler."
+---
 
 {{< youtube _yENha3zz-Y >}}
 

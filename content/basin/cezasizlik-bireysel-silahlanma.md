@@ -1,8 +1,9 @@
 ---
 title: "'Cezasızlık' KHK'sıyla alevlenen tartışma: Bireysel silahlanma artıyor mu?"
 date: 2018-03-01
----
 thumbnail: "https://img.youtube.com/vi/SdSZQ8u8lLo/mqdefault.jpg"
+description: "696 sayılı KHK ile bireysel silahlanma tartışmaları. Dr. Ayhan Akcan'ın cezasızlık ve silahlanma üzerine değerlendirmeleri."
+---
 
 {{< youtube SdSZQ8u8lLo >}}
 

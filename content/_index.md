@@ -1,5 +1,7 @@
 ---
 title: "Ana Sayfa"
+seoTitle: "Uzm. Psikiyatrist Dr. Ayhan Akcan | Bakırköy Psikiyatri ve Psikoterapi"
+description: "Uzm. Psikiyatrist Dr. Ayhan Akcan - Bakırköy'de psikiyatri ve psikoterapi hizmetleri. Çocuk-ergen, yetişkin, çift terapisi, ilaçsız tedavi ve psikolojik danışmanlık."
 heroImage: "/images/ayhanakcnnn.jpg"
 featuredPages:
   - title: "Denge Testi"

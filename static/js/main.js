@@ -3,7 +3,6 @@
   var parentItems = document.querySelectorAll('.main-navigation .menu-item-has-children > a');
   parentItems.forEach(function (link) {
     link.addEventListener('click', function (e) {
-      e.preventDefault();
       var li = this.parentElement;
       li.classList.toggle('open');
     });

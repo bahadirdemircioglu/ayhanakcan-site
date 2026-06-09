@@ -1,5 +1,6 @@
 ---
 title: "BAPAM"
+description: "Bakırköy Psikiyatri Tedavi ve Araştırma Merkezi (BAPAM) - Dr. Ayhan Akcan başkanlığında psikiyatri ve psikoterapi hizmetleri. 15 yıllık deneyim, 5 klinik psikolog."
 ---
 
 ### BAPAM'A HOŞGELDİNİZ!

@@ -1,6 +1,7 @@
 ---
 title: "Türkiye'de İki Evden Birinde Silah Var"
 date: 2019-01-23
+description: "Türkiye'de silah sahipliği ve şiddet olayları üzerine Umut Vakfı Yönetim Kurulu Üyesi Dr. Ayhan Akcan'ın verilerle değerlendirmesi."
 ---
 
 Türkiye'de yaşanan şiddet olayları son yıllarda artış gösteriyor. Umut Vakfı Yönetim Kurulu Üyesi Uzman Psikiyatr Dr. Ayhan Akcan, son 5 yılda vakaların yüzde 69 artıp insanların öldüğünü tespit ettiklerini söyledi.

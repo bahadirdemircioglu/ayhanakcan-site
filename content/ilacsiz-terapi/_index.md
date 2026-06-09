@@ -1,5 +1,6 @@
 ---
 title: "İlaçsız Terapi"
+description: "İlaçsız terapi nedir? Bireysel ve grup terapisi yöntemleri, uygulama alanları ve faydaları hakkında Dr. Ayhan Akcan'dan uzman bilgisi. Bakırköy'de psikoterapi hizmeti."
 ---
 
 #### İLAÇSIZ TEDAVİ NEDİR?

@@ -10,7 +10,7 @@
       <div class="latest-post">
         {{- with .Params.thumbnail }}
         <a class="latest-post__thumbnail" href="{{ $href }}">
-          <img width="270" height="190" src="{{ . }}" alt="{{ $title }}">
+          <img width="270" height="190" src="{{ . }}" alt="{{ $title }}" loading="lazy">
         </a>
         {{- end }}
         <div class="latest-post__categories">
@@ -19,7 +19,18 @@
           </ul>
         </div>
         <h4 class="latest-post__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-        <p class="latest-post__excerpt">{{ .Summary | plainify | truncate 120 }}</p>
+        {{- $desc := "" }}
+        {{- if .Params.description }}
+          {{- $desc = .Params.description }}
+        {{- else }}
+          {{- $summary := .Summary | plainify | truncate 120 }}
+          {{- if gt (len (trim $summary " \n\r\t")) 0 }}
+            {{- $desc = $summary }}
+          {{- end }}
+        {{- end }}
+        {{- if $desc }}
+        <p class="latest-post__excerpt">{{ $desc }}</p>
+        {{- end }}
       </div>
     </div>
     {{- end }}

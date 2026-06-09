@@ -1,12 +1,103 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+
+{{- /* Title */}}
 <title>{{ if .Params.seoTitle }}{{ .Params.seoTitle }}{{ else if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
-{{- with .Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-<link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+{{- /* Meta description */}}
+{{- with .Params.description }}<meta name="description" content="{{ . }}">{{ else }}<meta name="description" content="{{ site.Title }} - Uzm. Psikiyatrist Dr. Ayhan Akcan, Bakırköy'de psikiyatri ve psikoterapi hizmetleri.">{{ end }}
+
+{{- /* Canonical URL */}}
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{- /* Preconnect & DNS prefetch */}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+
+{{- /* Font Awesome */}}
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+{{- /* Google Fonts with display=swap */}}
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Montserrat:400,700&subset=latin&display=swap">
+
+{{- /* Main stylesheet */}}
 <link rel="stylesheet" href="/css/main.css">
+
+{{- /* Favicon */}}
 <link rel="icon" href="/images/favicon-32x32.png" sizes="32x32">
 <link rel="icon" href="/images/favicon-192x192.png" sizes="192x192">
 <link rel="apple-touch-icon-precomposed" href="/images/favicon-180x180.png">
+
+{{- /* Open Graph */}}
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ if .Params.seoTitle }}{{ .Params.seoTitle }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.topTagline }} - Uzm. Psikiyatrist Dr. Ayhan Akcan{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:locale" content="tr_TR">
+{{- /* OG Image — handle both external URLs and local paths */}}
+{{- $ogImage := "/images/kimdir-1.jpg" }}
+{{- with .Params.thumbnail }}
+  {{- if or (hasPrefix . "http://") (hasPrefix . "https://") }}
+    {{- $ogImage = . }}
+  {{- else }}
+    {{- $ogImage = . | absURL }}
+  {{- end }}
+{{- end }}
+<meta property="og:image" content="{{ $ogImage }}">
+
+{{- /* Twitter Card */}}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ if .Params.seoTitle }}{{ .Params.seoTitle }}{{ else }}{{ .Title }}{{ end }}">
+<meta name="twitter:description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ site.Params.topTagline }}{{ end }}">
+<meta name="twitter:image" content="{{ $ogImage }}">
+
+{{- /* JSON-LD Structured Data */}}
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Dr. Ayhan Akcan",
+  "jobTitle": "Uzm. Psikiyatrist",
+  "url": "{{ site.BaseURL }}",
+  "telephone": "{{ site.Params.phone }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ site.Params.addressTitle }}",
+    "addressLocality": "Bakırköy",
+    "addressCountry": "TR"
+  }
+}
+</script>
+{{- else if eq .Section "tedavi" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  "name": "{{ .Title }}",
+  "description": "{{ with .Params.description }}{{ . }}{{ end }}",
+  "url": "{{ .Permalink }}",
+  "about": {
+    "@type": "MedicalCondition",
+    "name": "{{ .Title }}"
+  }
+}
+</script>
+{{- else if eq .Section "sorular" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "QAPage",
+  "name": "{{ .Title }}",
+  "url": "{{ .Permalink }}",
+  "mainEntity": {
+    "@type": "Question",
+    "name": "{{ .Title }}",
+    "text": "{{ .Summary | plainify }}"
+  }
+}
+</script>
+{{- end }}

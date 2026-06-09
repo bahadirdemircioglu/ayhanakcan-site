@@ -1,5 +1,6 @@
 ---
 title: "Sosyal Medya"
+description: "Dr. Ayhan Akcan'ı sosyal medyada takip edin. YouTube, Instagram ve Facebook sayfaları ile psikiyatri ve ruh sağlığı hakkında güncel paylaşımlar."
 ---
 
 Bizi sosyal medyada takip edebilirsiniz:

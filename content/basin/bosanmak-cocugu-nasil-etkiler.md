@@ -1,6 +1,7 @@
 ---
 title: "Boşanmak Çocuğu Nasıl Etkiler?"
 date: 2018-11-13
+description: "Boşanma çocukları nasıl etkiler? Türkiye'de boşanma oranları ve çocuk psikolojisi üzerine Psikiyatrist Dr. Ayhan Akcan'ın değerlendirmeleri."
 ---
 
 Türkiye nüfusu, son 10 yılda nüfus yüzde 15 oranında çoğaldı, boşanma oranı ise yüzde 61 arttı. Boşanma nedenleri arasında geçimsizlik, eşlerden birinin akıl sağlığının yerinde olmaması, zina, cana kast ve kötü muamele yer alıyor.

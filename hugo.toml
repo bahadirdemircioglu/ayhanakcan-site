@@ -16,6 +16,10 @@ theme = "mentalpress-hugo"
   instagram = "https://www.instagram.com/psikiyatrayhanakcan/?hl=tr"
   facebook = "https://www.facebook.com/ayhanakcan.dr"
   formspreeEndpoint = ""
+  address = "İncirli Cad. Çağ Sok No 22/5<br>Bakırköy / İstanbul"
+  secondPhone = "0212 543 88 17"
+  mobilePhone = "0532 361 58 04"
+  email = "info@ayhanakcan.com"
 
 [[menu.main]]
   identifier = "kimdir"
