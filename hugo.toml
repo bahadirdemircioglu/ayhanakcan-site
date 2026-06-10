@@ -5,7 +5,7 @@ theme = "mentalpress-hugo"
 
 [params]
   topTagline = "Ayhan Akcan"
-  logoImage = ""
+  logoImage = "/images/ayhanakcan-logo.png"
   addressTitle = "İncirli Cad. Çağ Sok No 22/5"
   addressSubtitle = "Bakırköy / İstanbul"
   hoursTitle = "Pazartesi – Pazar 8.00 – 18.00"
