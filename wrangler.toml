@@ -1,12 +1,11 @@
-# Cloudflare Pages — ayhanakcan-site
-# Bu dosya sadece referans içindir.
-# Gerçek yapılandırma Cloudflare dashboard'dan yapılır.
-#
-# Build ayarları (Cloudflare Pages > Settings > Build):
-#   Build command:    hugo --minify
-#   Build directory:  public
-#   Root directory:   /
-#
-# Environment variables:
-#   HUGO_VERSION = 0.162.1
-#   HUGO_ENV     = production
+name = "ayhanakcan-site"
+compatibility_date = "2026-06-09"
+
+# Static asset serving — Hugo's build output
+[assets]
+directory = "./public"
+not_found_handling = "404-page"
+
+# Surface deploy/runtime logs in CF dashboard
+[observability]
+enabled = true
