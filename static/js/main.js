@@ -1,8 +1,9 @@
 (function () {
   // Sub-menu click toggle
-  var parentItems = document.querySelectorAll('.main-navigation .menu-item-has-children > a');
-  parentItems.forEach(function (link) {
-    link.addEventListener('click', function (e) {
+  var toggles = document.querySelectorAll('.main-navigation .sub-menu-toggle');
+  toggles.forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      e.preventDefault();
       var li = this.parentElement;
       li.classList.toggle('open');
     });
