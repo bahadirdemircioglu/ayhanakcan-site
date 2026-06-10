@@ -153,6 +153,7 @@ blockquote {
   align-items: center;
   flex-wrap: wrap;
   padding: 20px 0;
+  margin-bottom: 20px;
   position: relative;
 }
 
