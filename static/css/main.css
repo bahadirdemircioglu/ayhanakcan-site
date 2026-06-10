@@ -749,14 +749,15 @@ a.read-more:hover {
   background-color: var(--color-footer-bg);
   color: var(--color-body);
   font-size: 14px;
+  padding: 50px 0 0;
 }
 
 /* Footer grid */
-.footer-top { padding: 40px 0; }
 .footer-grid {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   gap: 30px;
+  padding-bottom: 40px;
 }
 
 .footer-col { min-width: 0; }
@@ -842,16 +843,11 @@ a.read-more:hover {
 
 /* Footer bottom */
 .footer-bottom {
-  padding: 20px 0;
   border-top: 1px solid var(--color-light-bg);
+  padding: 20px 0;
+  text-align: center;
 }
-.footer-bottom .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.footer-bottom__left img { max-height: 50px; }
-.footer-bottom__right { font-size: 12px; color: var(--color-text-muted); }
+.footer-bottom p { margin: 0; font-size: 12px; color: var(--color-text-muted); }
 .footer a { color: var(--color-link); }
 .footer a:hover { color: var(--color-link-hover); }
 .footer .textwidget { color: var(--color-body); }

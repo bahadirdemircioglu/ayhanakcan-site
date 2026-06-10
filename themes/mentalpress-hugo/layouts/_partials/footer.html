@@ -1,75 +1,61 @@
 <footer class="footer">
-  <div class="footer-top">
-    <div class="container">
-      <div class="footer-grid">
+  <div class="container">
+    <div class="footer-grid">
 
-        {{- /* Column 1: Logo + Description */}}
-        <div class="footer-col">
-          <a href="{{ site.BaseURL }}" class="footer-logo-link">
-            <img src="/images/ayhanakcan-logo.png" alt="{{ site.Title }}" class="footer-logo-img">
-          </a>
-          <p class="footer-desc">Uzm. Psikiyatrist Dr. Ayhan Akcan — Bakırköy'de psikiyatri ve psikoterapi hizmetleri.</p>
-        </div>
-
-        {{- /* Column 2: Quick Links (Tedaviler) */}}
-        <div class="footer-col">
-          <h4 class="footer-heading">Tedaviler</h4>
-          <ul class="footer-links">
-            {{- range first 6 (where site.RegularPages "Section" "tedavi") }}
-            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-            {{- end }}
-            <li><a href="/tedaviler/">Tümü →</a></li>
-          </ul>
-        </div>
-
-        {{- /* Column 3: Contact + Social */}}
-        <div class="footer-col">
-          <h4 class="footer-heading">İletişim</h4>
-          <ul class="footer-contact">
-            <li>
-              <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <span>{{ site.Params.addressTitle }}, {{ site.Params.addressSubtitle }}</span>
-            </li>
-            <li>
-              <i class="fa fa-phone" aria-hidden="true"></i>
-              <a href="{{ site.Params.phoneLink | safeURL }}">{{ site.Params.phone }}</a>
-            </li>
-            <li>
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-              <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
-            </li>
-            <li>
-              <i class="fa fa-clock-o" aria-hidden="true"></i>
-              <span>{{ site.Params.hoursTitle }}</span>
-            </li>
-          </ul>
-          <div class="footer-social">
-            {{- with site.Params.youtube }}
-            <a href="{{ . }}" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa fa-youtube"></i></a>
-            {{- end }}
-            {{- with site.Params.instagram }}
-            <a href="{{ . }}" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
-            {{- end }}
-            {{- with site.Params.facebook }}
-            <a href="{{ . }}" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
-            {{- end }}
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <div class="footer-bottom">
-    <div class="container">
-      <div class="footer-bottom__left">
-        <a href="{{ site.BaseURL }}">
-          <img src="/images/logo-footer.png" alt="{{ site.Title }}">
+      <div class="footer-col">
+        <a href="{{ site.BaseURL }}" class="footer-logo-link">
+          <img src="/images/ayhanakcan-logo.png" alt="{{ site.Title }}" class="footer-logo-img">
         </a>
+        <p class="footer-desc">Uzm. Psikiyatrist Dr. Ayhan Akcan — Bakırköy'de psikiyatri ve psikoterapi hizmetleri.</p>
       </div>
-      <div class="footer-bottom__right">
-        &copy; {{ now.Format "2006" }} {{ site.Title }} — Tüm hakları saklıdır.
+
+      <div class="footer-col">
+        <h4 class="footer-heading">Tedaviler</h4>
+        <ul class="footer-links">
+          {{- range first 6 (where site.RegularPages "Section" "tedavi") }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+          {{- end }}
+          <li><a href="/tedaviler/">Tümü →</a></li>
+        </ul>
       </div>
+
+      <div class="footer-col">
+        <h4 class="footer-heading">İletişim</h4>
+        <ul class="footer-contact">
+          <li>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <span>{{ site.Params.addressTitle }}, {{ site.Params.addressSubtitle }}</span>
+          </li>
+          <li>
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <a href="{{ site.Params.phoneLink | safeURL }}">{{ site.Params.phone }}</a>
+          </li>
+          <li>
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <a href="mailto:{{ site.Params.email | safeURL }}">{{ site.Params.email }}</a>
+          </li>
+          <li>
+            <i class="fa fa-clock-o" aria-hidden="true"></i>
+            <span>{{ site.Params.hoursTitle }}</span>
+          </li>
+        </ul>
+        <div class="footer-social">
+          {{- with site.Params.youtube }}
+          <a href="{{ . }}" target="_blank" rel="noopener" aria-label="YouTube"><i class="fa fa-youtube"></i></a>
+          {{- end }}
+          {{- with site.Params.instagram }}
+          <a href="{{ . }}" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+          {{- end }}
+          {{- with site.Params.facebook }}
+          <a href="{{ . }}" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa fa-facebook"></i></a>
+          {{- end }}
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {{ now.Format "2006" }} {{ site.Title }} — Tüm hakları saklıdır.</p>
     </div>
   </div>
 </footer>
