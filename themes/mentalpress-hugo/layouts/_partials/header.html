@@ -1,7 +1,7 @@
 <div class="logo">
   <a href="{{ site.BaseURL }}">
     {{- if site.Params.logoImage }}
-    <img src="{{ site.Params.logoImage }}" alt="{{ site.Title }}" class="img-responsive">
+    <img src="{{ site.Params.logoImage }}" alt="{{ site.Title }}" class="img-responsive" width="260" height="90" srcset="{{ site.Params.logoImage }} 2x">
     {{- else }}
     <h1 class="logo__text">{{ site.Title }}</h1>
     {{- end }}
