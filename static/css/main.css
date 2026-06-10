@@ -779,6 +779,8 @@ a.read-more:hover {
 .text-center { text-align: center; }
 
 /* --- Responsive ------------------------------------------- */
+
+/* Tablet ve altı (991px) — sidebar collapse, hamburger menü */
 @media (max-width: 991px) {
   .navbar-toggle { display: flex; }
   .header { justify-content: space-between; }
@@ -798,7 +800,7 @@ a.read-more:hover {
     position: fixed;
     top: 0;
     left: 0;
-    width: 280px;
+    width: 300px;
     height: 100%;
     overflow-y: auto;
     z-index: 9999;
@@ -810,7 +812,81 @@ a.read-more:hover {
   .sidebar { padding-right: 0; margin-bottom: 20px; }
 }
 
+/* Mobil (767px altı) */
 @media (max-width: 767px) {
   .container { width: 100%; }
   .col-sm-12 { width: 100%; }
+
+  /* Header */
+  .header { padding: 15px 0; }
+  .logo { margin-right: 12px; }
+  .logo .img-responsive { max-width: 200px; width: 200px; }
+  .logo__text { font-size: 18px; }
+  .header-widgets { gap: 10px; }
+  .header-widgets__widget .icon-box .fa.fa-3x { font-size: 24px; }
+  .icon-box__title { font-size: 12px; }
+  .icon-box__subtitle { font-size: 11px; }
+  .social-icons__link { width: 28px; height: 28px; font-size: 12px; }
+
+  /* Top bar */
+  .top { font-size: 11px; padding: 6px 0; }
+
+  /* Content */
+  .content-container { padding: 15px; }
+  .main-title__primary { font-size: 18px; }
+  .hentry h2 { font-size: 20px; }
+  .hentry h3 { font-size: 17px; }
+  .hentry h4 { font-size: 15px; }
+
+  /* Homepage */
+  .home-intro-row .col-xs-12.col-md-6 { margin-bottom: 20px; }
+  .faq-preview-row .col-xs-12.col-md-4 { margin-bottom: 20px; }
+  .awards-section { padding: 20px 0; margin-bottom: 30px; }
+  .testimonial__quote { padding: 0 35px; font-size: 14px; }
+  .testimonial__quote::before { width: 30px; height: 30px; font-size: 22px; }
+  .testimonial .widget-title { padding: 0 35px; }
+
+  /* Latest posts grid → single column */
+  .latest-posts .col-xs-12.col-md-4 { width: 100%; }
+
+  /* Post grid → single column */
+  .post-grid .col-xs-12.col-md-4 { width: 100%; }
+
+  /* Section post grid → single column (zaten var) */
+
+  /* Pagination */
+  .pagination { justify-content: center; }
+  .page-item .page-link { padding: 8px 14px; font-size: 14px; }
+
+  /* Footer */
+  .footer-bottom .container { flex-direction: column; gap: 10px; text-align: center; }
+
+  /* Tables — horizontal scroll */
+  .hentry__content table { display: block; width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+  /* Contact form */
+  .contact-form input[type="submit"] { width: 100%; }
+
+  /* Map */
+  .map-iframe { height: 220px; }
+}
+
+/* Küçük telefon (480px altı) */
+@media (max-width: 480px) {
+  .header { padding: 12px 0; }
+  .logo .img-responsive { max-width: 160px; width: 160px; }
+  .logo__text { font-size: 16px; }
+  .logo { margin-right: 8px; }
+
+  .navbar-toggle { padding: 6px 10px; font-size: 11px; }
+  .navbar-toggle__icon-bar { gap: 3px; }
+  .icon-bar { width: 18px; height: 2px; }
+
+  .content-container { padding: 12px; }
+  .main-title__primary { font-size: 16px; }
+  .hentry { font-size: 14px; line-height: 1.7; }
+
+  .main-navigation__container { width: 100%; }
+  .section-post-item { padding: 16px; }
+  .hentry__content { max-width: 100%; }
 }
